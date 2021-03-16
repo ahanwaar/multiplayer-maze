@@ -1,0 +1,237 @@
+@import url(https://fonts.googleapis.com/css2?family=Varela+Round);
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    min-width: 600px;
+    min-height: 600px
+}
+
+body {
+    background-color: ivory;
+    background-image: url("../res/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    color: #0a0a0a;
+    font-size: 14px;
+    align-items: center
+}
+
+:focus {
+    outline: 0
+}
+
+p {
+    margin: 6px
+}
+
+.center-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100%
+}
+
+.login-container {
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    height: 140px;
+    border-radius: 10px;
+    position: relative;
+    top: 35%;
+    background-color: hsla(60, 100%, 97%, .85)
+}
+
+.inner-form {
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    height: 70px;
+    width: 90%;
+    color: ivory;
+    background-color: hsla(180, 100%, 16%, .7)
+}
+
+.inner-form-elem {
+    width: 100%;
+    margin-top: 5px;
+    float: left
+}
+
+label {
+    font-family: monospace;
+    padding-left: 10px;
+    color: ivory
+}
+
+.inner-form-details {
+    float: left;
+    padding-top: 2%;
+    height: 98%;
+    width: 80%
+}
+
+.inner-form-button {
+    float: left;
+    height: 100%;
+    width: 20%
+}
+
+#reg-btn {
+    background-color: #005252;
+    border-style: none;
+    color: ivory;
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    cursor: pointer;
+    border-radius: 10px
+}
+
+#reg-btn:hover {
+    background-color: #003b3b
+}
+
+#input-text {
+    background-color: #005252;
+    color: ivory;
+    border-style: none;
+    border-radius: 10px
+}
+
+#txt-btn {
+    border-style: none;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    cursor: pointer;
+    background-color: transparent
+}
+
+#txt-btn:hover {
+    color: teal
+}
+
+.games-container {
+    margin: 0;
+    padding: 0;
+    width: 420px;
+    height: 600px;
+    position: relative;
+    top: 5%;
+    background-color: hsla(60, 100%, 97%, .85)
+}
+
+.games-container-footer {
+    color: ivory;
+    background-color: #0a0a0a;
+    margin: 0;
+    padding: 0;
+    height: 180px;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    bottom: 0
+}
+
+.footer-col-20 {
+    height: 90%;
+    padding-top: 10%;
+    width: 26%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left
+}
+
+.footer-col-80 {
+    height: 100%;
+    width: 70%;
+    float: left
+}
+
+.games-container-header {
+    color: ivory;
+    background-color: #ffd30f;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100%;
+    border-radius: 20px 0 20px 0;
+    float: left
+}
+
+.user-icon {
+    color: ivory;
+    font-size: 60px
+}
+
+.header-icon {
+    height: 95%;
+    width: 10%;
+    float: left;
+    padding: 5%
+}
+
+.header-details {
+    height: 100%;
+    float: left;
+    width: 50%
+}
+
+.header-actions {
+    height: 90%;
+    float: left;
+    padding: 5%
+}
+
+.quit-btn {
+    font-size: 40px;
+    color: #ffd30f;
+    background-color: ivory;
+    border-radius: 10px;
+    padding: 4px
+}
+
+.quit-btn:hover {
+    background-color: #ff5b0f
+}
+
+.games-list-container {
+    width: 90%;
+    padding: 5%;
+    float: left
+}
+
+td {
+    padding: 5px
+}
+
+.start-btn {
+    border-radius: 5px;
+    color: #fffff0;
+    background-color: #ffd30f;
+    cursor: pointer;
+}
+
+.join-btn {
+    border-radius: 5px;
+    color: #fffff0;
+    background-color: #005252;
+    cursor: pointer;
+}
+
+.start-btn:hover {
+    background-color: #dbb60f;
+}
+
+.join-btn:hover {
+    background-color: #003b3b;
+}

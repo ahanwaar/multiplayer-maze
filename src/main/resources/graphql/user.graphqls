@@ -1,0 +1,16 @@
+type User {
+ username: ID!
+ password: String!
+}
+
+type Query {
+ findAllUsers: [User]!
+}
+
+type Mutation {
+ loginUser(username: ID!, password: String!) : Boolean!
+ registerUser(username: String!, password: String!): Boolean
+ deleteUser(username:ID!) : Boolean
+}
+
+

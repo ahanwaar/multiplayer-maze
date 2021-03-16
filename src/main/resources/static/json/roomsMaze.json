@@ -1,0 +1,1911 @@
+{
+  "rooms" : [ {
+    "index" : 39,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "plainWall",
+        "name" : "plain wall"
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 39, 38 ]
+      },
+      "WEST" : {
+        "@type" : "chest",
+        "inventory" : {
+          "items" : {
+            "gold" : {
+              "amount" : 3
+            },
+            "silver key" : "SILVER"
+          },
+          "gold" : {
+            "amount" : 0
+          }
+        },
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "looted" : false,
+        "name" : "chest"
+      },
+      "SOUTH" : {
+        "@type" : "painting",
+        "hiddenKey" : "SILVER",
+        "name" : "painting"
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 38,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "GOLD",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : true,
+        "roomsIndices" : [ 38 ]
+      },
+      "EAST" : {
+        "@type" : "seller",
+        "name" : "seller"
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 39, 38 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 38, 37 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 27,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "painting",
+        "hiddenKey" : "SILVER",
+        "name" : "painting"
+      },
+      "EAST" : {
+        "@type" : "painting",
+        "hiddenKey" : "NULL",
+        "name" : "painting"
+      },
+      "WEST" : {
+        "@type" : "plainWall",
+        "name" : "plain wall"
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 27, 26 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 34,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "mirror",
+        "hiddenKey" : "COPPER",
+        "name" : "mirror"
+      },
+      "EAST" : {
+        "@type" : "plainWall",
+        "name" : "plain wall"
+      },
+      "WEST" : {
+        "@type" : "painting",
+        "hiddenKey" : "GOLD",
+        "name" : "painting"
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 34, 33 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 35,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 36, 35 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 35, 33 ]
+      },
+      "WEST" : {
+        "@type" : "mirror",
+        "hiddenKey" : "GOLD",
+        "name" : "mirror"
+      },
+      "SOUTH" : {
+        "@type" : "plainWall",
+        "name" : "plain wall"
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 26,
+    "hasLights" : false,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 27, 26 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 28, 26 ]
+      },
+      "WEST" : {
+        "@type" : "painting",
+        "hiddenKey" : "GOLD",
+        "name" : "painting"
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 26, 25 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 33,
+    "hasLights" : false,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 34, 33 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 25, 33 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 35, 33 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 33, 32 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 37,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 38, 37 ]
+      },
+      "EAST" : {
+        "@type" : "painting",
+        "hiddenKey" : "COPPER",
+        "name" : "painting"
+      },
+      "WEST" : {
+        "@type" : "chest",
+        "inventory" : {
+          "items" : {
+            "gold" : {
+              "amount" : 1
+            },
+            "silver key" : "SILVER"
+          },
+          "gold" : {
+            "amount" : 0
+          }
+        },
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "looted" : false,
+        "name" : "chest"
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 37, 36 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 36,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 37, 36 ]
+      },
+      "EAST" : {
+        "@type" : "plainWall",
+        "name" : "plain wall"
+      },
+      "WEST" : {
+        "@type" : "chest",
+        "inventory" : {
+          "items" : {
+            "flashlight" : {
+              "on" : false
+            }
+          },
+          "gold" : {
+            "amount" : 0
+          }
+        },
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "looted" : false,
+        "name" : "chest"
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 36, 35 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 0,
+    "hasLights" : false,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 1, 0 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 17, 0 ]
+      },
+      "WEST" : {
+        "@type" : "painting",
+        "hiddenKey" : "GOLD",
+        "name" : "painting"
+      },
+      "SOUTH" : {
+        "@type" : "plainWall",
+        "name" : "plain wall"
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 1,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "painting",
+        "hiddenKey" : "SILVER",
+        "name" : "painting"
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 2, 1 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 19, 1 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 1, 0 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 17,
+    "hasLights" : false,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 17, 2 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 18, 17 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 17, 0 ]
+      },
+      "SOUTH" : {
+        "@type" : "mirror",
+        "hiddenKey" : "NULL",
+        "name" : "mirror"
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 2,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 3, 2 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 2, 11 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 2, 1 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 17, 2 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 18,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 11, 18 ]
+      },
+      "EAST" : {
+        "@type" : "mirror",
+        "hiddenKey" : "SILVER",
+        "name" : "mirror"
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 18, 17 ]
+      },
+      "SOUTH" : {
+        "@type" : "mirror",
+        "hiddenKey" : "COPPER",
+        "name" : "mirror"
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 3,
+    "hasLights" : false,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 4, 3 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 3, 8 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "GOLD",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : true,
+        "roomsIndices" : [ 3 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 3, 2 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 11,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 11, 8 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 11, 10 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 2, 11 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 11, 18 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 14,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 14, 12 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 4, 14 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 15, 14 ]
+      },
+      "SOUTH" : {
+        "@type" : "painting",
+        "hiddenKey" : "SILVER",
+        "name" : "painting"
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 4,
+    "hasLights" : false,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 5, 4 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 7, 4 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 4, 14 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 4, 3 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 8,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 8, 7 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 9, 8 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 3, 8 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 11, 8 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 10,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 10, 9 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "GOLD",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : true,
+        "roomsIndices" : [ 10 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 11, 10 ]
+      },
+      "SOUTH" : {
+        "@type" : "seller",
+        "name" : "seller"
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 12,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "painting",
+        "hiddenKey" : "COPPER",
+        "name" : "painting"
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 12, 5 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 13, 12 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 14, 12 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 23,
+    "hasLights" : false,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 23, 31 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 23, 22 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 24, 23 ]
+      },
+      "SOUTH" : {
+        "@type" : "mirror",
+        "hiddenKey" : "SILVER",
+        "name" : "mirror"
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 30,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 30, 29 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 16, 30 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 30, 31 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 22, 30 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 5,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "seller",
+        "name" : "seller"
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 6, 5 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 12, 5 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 5, 4 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 7,
+    "hasLights" : false,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 7, 6 ]
+      },
+      "EAST" : {
+        "@type" : "chest",
+        "inventory" : {
+          "items" : {
+            "silver key" : "SILVER"
+          },
+          "gold" : {
+            "amount" : 0
+          }
+        },
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "looted" : false,
+        "name" : "chest"
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 7, 4 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 8, 7 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 9,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "seller",
+        "name" : "seller"
+      },
+      "EAST" : {
+        "@type" : "mirror",
+        "hiddenKey" : "SILVER",
+        "name" : "mirror"
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 9, 8 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 10, 9 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 13,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "plainWall",
+        "name" : "plain wall"
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 13, 12 ]
+      },
+      "WEST" : {
+        "@type" : "painting",
+        "hiddenKey" : "SILVER",
+        "name" : "painting"
+      },
+      "SOUTH" : {
+        "@type" : "plainWall",
+        "name" : "plain wall"
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 16,
+    "hasLights" : false,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "painting",
+        "hiddenKey" : "NULL",
+        "name" : "painting"
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 16, 15 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 16, 30 ]
+      },
+      "SOUTH" : {
+        "@type" : "mirror",
+        "hiddenKey" : "SILVER",
+        "name" : "mirror"
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 22,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 22, 30 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 22, 21 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 23, 22 ]
+      },
+      "SOUTH" : {
+        "@type" : "plainWall",
+        "name" : "plain wall"
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 6,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "chest",
+        "inventory" : {
+          "items" : {
+            "copper key" : "COPPER",
+            "flashlight" : {
+              "on" : false
+            }
+          },
+          "gold" : {
+            "amount" : 0
+          }
+        },
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "looted" : false,
+        "name" : "chest"
+      },
+      "EAST" : {
+        "@type" : "mirror",
+        "hiddenKey" : "COPPER",
+        "name" : "mirror"
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 6, 5 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 7, 6 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 25,
+    "hasLights" : false,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 26, 25 ]
+      },
+      "EAST" : {
+        "@type" : "chest",
+        "inventory" : {
+          "items" : {
+            "gold" : {
+              "amount" : 8
+            },
+            "copper key" : "COPPER"
+          },
+          "gold" : {
+            "amount" : 0
+          }
+        },
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "looted" : false,
+        "name" : "chest"
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 25, 33 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 25, 24 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 28,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "GOLD",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : true,
+        "roomsIndices" : [ 28 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 29, 28 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 28, 26 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 31, 28 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 32,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 33, 32 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 32, 24 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "GOLD",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : true,
+        "roomsIndices" : [ 32 ]
+      },
+      "SOUTH" : {
+        "@type" : "chest",
+        "inventory" : {
+          "items" : {
+            "gold" : {
+              "amount" : 8
+            },
+            "gold key" : "GOLD"
+          },
+          "gold" : {
+            "amount" : 0
+          }
+        },
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "looted" : false,
+        "name" : "chest"
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 24,
+    "hasLights" : false,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 25, 24 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 24, 23 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 32, 24 ]
+      },
+      "SOUTH" : {
+        "@type" : "painting",
+        "hiddenKey" : "GOLD",
+        "name" : "painting"
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 29,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "painting",
+        "hiddenKey" : "SILVER",
+        "name" : "painting"
+      },
+      "EAST" : {
+        "@type" : "painting",
+        "hiddenKey" : "NULL",
+        "name" : "painting"
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 29, 28 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 30, 29 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 31,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 31, 28 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 30, 31 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "GOLD",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : true,
+        "roomsIndices" : [ 31 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 23, 31 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 19,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 20, 19 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 19, 1 ]
+      },
+      "WEST" : {
+        "@type" : "plainWall",
+        "name" : "plain wall"
+      },
+      "SOUTH" : {
+        "@type" : "painting",
+        "hiddenKey" : "SILVER",
+        "name" : "painting"
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 15,
+    "hasLights" : false,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "GOLD",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : true,
+        "roomsIndices" : [ 15 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 15, 14 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "COPPER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 16, 15 ]
+      },
+      "SOUTH" : {
+        "@type" : "mirror",
+        "hiddenKey" : "GOLD",
+        "name" : "mirror"
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 21,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "GOLD",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : true,
+        "roomsIndices" : [ 21 ]
+      },
+      "EAST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 21, 20 ]
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 22, 21 ]
+      },
+      "SOUTH" : {
+        "@type" : "painting",
+        "hiddenKey" : "GOLD",
+        "name" : "painting"
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  }, {
+    "index" : 20,
+    "hasLights" : true,
+    "players" : [ ],
+    "sides" : {
+      "NORTH" : {
+        "@type" : "mirror",
+        "hiddenKey" : "SILVER",
+        "name" : "mirror"
+      },
+      "EAST" : {
+        "@type" : "painting",
+        "hiddenKey" : "NULL",
+        "name" : "painting"
+      },
+      "WEST" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "SILVER",
+          "locked" : true
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 21, 20 ]
+      },
+      "SOUTH" : {
+        "@type" : "door",
+        "lock" : {
+          "key" : "NULL",
+          "locked" : false
+        },
+        "open" : false,
+        "name" : "door",
+        "magical" : false,
+        "roomsIndices" : [ 20, 19 ]
+      }
+    },
+    "lit" : false,
+    "empty" : true,
+    "crowded" : false
+  } ],
+  "numOfRooms" : 40
+}
