@@ -6,4 +6,7 @@ import java.util.List;
 
 public interface UserService {
     List<User> retrieveUsers();
+    boolean checkIfExists(String username);
+    User getUserByUsername(String username);
+    void saveUser(User user);
 }

@@ -17,4 +17,18 @@ public class UserServiceImpl implements UserService{
     public List<User> retrieveUsers() {
         return (List<User>) userRepository.findAll();
     }
+
+    @Override
+    public boolean checkIfExists(String username) {
+        return userRepository.existsById(username);
+    }
+
+    @Override
+    public User getUserByUsername(String username) {
+        return userRepository.findById(username).get();
+    }
+
+    public void saveUser(User user){
+        userRepository.save(user);
+    }
 }

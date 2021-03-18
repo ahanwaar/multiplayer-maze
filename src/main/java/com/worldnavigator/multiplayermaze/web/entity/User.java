@@ -11,8 +11,6 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 import org.hibernate.validator.constraints.Length;
 
-
-
 @Getter
 @Setter
 @Entity
